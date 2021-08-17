@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+typedef struct Pessoa {
+	int idade;
+	float peso;
+	
+} Pessoa;
+
+
+int main() {
+
+	int i = 10;
+	
+	Pessoa p;
+	
+	p.idade = 10;
+	p.peso = 81.2;
+	
+	printf("%d\n", p.idade);
+	printf("%f\n", p.peso);
+	return 0;
+}

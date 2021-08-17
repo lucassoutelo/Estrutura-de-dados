@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+typedef struct Pessoa {
+	int idade;
+	float peso;
+} Pessoa;
+
+int main() {
+	
+	Pessoa *pessoa;
+	
+	pessoa = (Pessoa *) malloc (sizeof(Pessoa));
+	
+	pessoa->idade = 30;
+	pessoa->peso = 80.2;
+	
+	printf("%d", (*pessoa).idade);
+	
+	return 0;
+}
+Luan Paulo Azevedo20:32
+Beleza
